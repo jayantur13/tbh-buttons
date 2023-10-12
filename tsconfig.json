@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "outDir": "./dist",
+    "allowUmdGlobalAccess": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "declaration": true,
+    "moduleResolution": "Node",
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/index.ts"],
+  "exclude": ["node_modules"]
+}

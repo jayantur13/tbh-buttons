@@ -1,0 +1,7 @@
+#!/bin/sh
+. "$(dirname "$0")/_husky.sh"
+
+echo "Running lint command"
+npm run prettier
+echo "Running prettier command"
+npm run lint
