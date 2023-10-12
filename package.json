@@ -24,7 +24,7 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src",
     "lint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx ./src",
     "prepublishOnly": "npm run build",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "author": "Jayant Navrange",
   "license": "MIT",
